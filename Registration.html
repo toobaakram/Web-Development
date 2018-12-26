@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="R.css">
+</head>
+<body>
+	<h2>Registration</h2>
+	<form>
+		<label>First name :
+			<input type="text" name="First"  required placeholder="Tooba" >			
+		</label>
+		<label>Last name :
+			<input type="text" name="Last"  required placeholder="Akram" >			
+		</label><br>
+		<label> Male </label><input type="radio" name="gen" value="Male" > </lable>
+		<label> Female <input type="radio" name="gen" value="Female "> </lable>
+		<label> Other <input type="radio" name="gen" value="Other "> </lable>
+		<br>
+		<label> Email </label><input type="Email" name="email" required placeholder="Your email"> </lable>
+		<label> Password </label><input type="Password" name="pass" required pattern=".{5,10}" title="must be 5 to 10 characters" placeholder="your Password"> </lable>
+		<br>
+		<label>Birthday 
+			<select name="Month" >
+				<option>Month</option>
+				<option>july</option>
+				<option>May</option>
+			</select>
+			<select name="Day">
+				<option>Day</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+			<select name="Year">
+				<option>Year</option>
+				<option>2017</option>
+				<option>2016</option>
+			</select>
+		</label>
+		<br>
+		<p><label> I agree to the term and Conditions <input type="checkbox" name="checkbox"></label></p>
+		<br>
+		<button>submit</button>
+	</form>
+
+</body>
+</html>
